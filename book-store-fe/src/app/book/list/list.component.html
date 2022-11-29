@@ -1,0 +1,257 @@
+<div class="container my-5">
+  <div class="row" style="margin-top: 100px">
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-4 order-lg-last">
+                <img class="img-fluid"
+                     src="https://img.freepik.com/free-vector/international-literacy-day-with-lots-books_23-2148608688.jpg?w=740&t=st=1664625306~exp=1664625906~hmac=19e6f587e9a62ca7a215118c9c5d7e203b73f5631c83168db01e13e0fc7fe381"
+                     alt="..." width="346" height="346">
+              </div>
+              <div class="col-lg-8 mb-0 d-flex align-items-center">
+                <div class="text-align-left align-self-center">
+                  <h1 class="h1 text-success">International Literacy Day</h1>
+                  <h3 class="h3">Ngày Quốc Tế Biết đọc biết viết</h3>
+                  <p>
+                    Ngày Quốc Tế Biết đọc biết viết diễn ra vào ngày 8 tháng 9 hàng năm nhằm nâng cao nhận thức và mối
+                    quan tâm đến các vấn đề về mù chữ đang tồn tại trong cộng đồng địa phương của chúng ta cũng như trên
+                    toàn cầu...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-4 order-lg-last">
+                <img class="img-fluid"
+                     src="https://img.freepik.com/premium-vector/flat-world-book-day-background_23-2148094556.jpg?w=740"
+                     alt="..." width="346" height="346">
+              </div>
+              <div class="col-lg-8 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h1 class="h1 text-success">World Book Day</h1>
+                  <h3 class="h3">Ngày Sách Thế Giới</h3>
+                  <p>
+                    Ngày Sách Thế giới được Tổ chức Giáo dục, Khoa học và Văn hóa của Liên hợp quốc (UNESCO) tổ chức
+                    ngày 23 tháng 4 năm 1995. Tuy nhiên, mối liên hệ giữa niên đại đó và sách được thực hiện ở Tây Ban
+                    Nha vào năm 1923, vì đây là ngày kỷ niệm ngày mất của William Shakespeare và Inca Garcilaso de la
+                    Vega, Biên niên sử Tây Ban Nha nổi tiếng
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-4 order-lg-last">
+                <img class="img-fluid"
+                     src="https://img.freepik.com/free-vector/cartoon-world-book-day-illustration_23-2148881001.jpg?w=740&t=st=1664625355~exp=1664625955~hmac=89f74c2e58f23fa7e3f5b3b992ef9c28919a95cdc4067c7cee59348921bef178"
+                     alt="..." width="346" height="346">
+              </div>
+              <div class="col-lg-8 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h1 class="h1 text-success">Happy Book Day</h1>
+                  <h3 class="h3">Ngày Sách Thế Giới</h3>
+                  <p>
+                    Ngày Sách Thế giới được Tổ chức Giáo dục, Khoa học và Văn hóa của Liên hợp quốc (UNESCO) tổ chức
+                    ngày 23 tháng 4 năm 1995. Tuy nhiên, mối liên hệ giữa niên đại đó và sách được thực hiện ở Tây Ban
+                    Nha vào năm 1923, vì đây là ngày kỷ niệm ngày mất của William Shakespeare và Inca Garcilaso de la
+                    Vega, Biên niên sử Tây Ban Nha nổi tiếng
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel"
+         role="button" data-bs-slide="prev">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel"
+         role="button" data-bs-slide="next">
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </div>
+    <h1 class="h1 text-center my-5 animate__animated animate__slideInDown" style="font-size: 50px">Sách Mới - Tái
+      Bản</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mt-3">
+          <a routerLink="/create" *ngIf="['ROLE_ADMIN'].indexOf(role)!==-1">
+            <button mat-raised-button color="primary" matTooltip="Thêm Mới Sách">
+              <i class="fas fa-plus"></i> &nbsp; Thêm Mới
+            </button>
+          </a>
+        </div>
+        <div class="col-lg-8 col-md-8 align-middle" style="display: flex; justify-content: flex-end">
+          <form [formGroup]="searchForm" novalidate (ngSubmit)="searchBook()">
+            <mat-form-field formGroupName="category" appearance="outline" class="me-3">
+              <mat-label>Danh Mục</mat-label>
+              <mat-select formControlName="name">
+                <mat-option value="">Tất Cả</mat-option>
+                <mat-option *ngFor="let category of categories" [value]="category.name">{{category.name}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="me-3">
+              <mat-label>Tìm Sách</mat-label>
+              <input formControlName="name" matInput type="search" placeholder="Nhập Tên Sách">
+              <mat-error
+                *ngIf="searchForm.controls.name.hasError('pattern') && (searchForm.controls.name.touched || searchForm.controls.name.dirty)">
+                Vui Lòng Không Nhập Kí Tự Đặc Biệt
+              </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="me-3">
+              <mat-label>Tìm Tác Giả</mat-label>
+              <input formControlName="author" matInput type="search" placeholder="Nhập Tên Tác Giả">
+              <mat-error
+                *ngIf="searchForm.controls.author.hasError('pattern') && (searchForm.controls.author.touched || searchForm.controls.author.dirty)">
+                Vui Lòng Không Nhập Kí Tự Đặc Biệt
+              </mat-error>
+            </mat-form-field>
+            <button mat-raised-button type="submit" color="primary" (keyup.enter)="searchBook()"
+                    [disabled]="searchForm.invalid">
+              <i class="fas fa-search"></i> &nbsp; Tìm Kiếm
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col" *ngFor="let item of books">
+          <div class="card mb-4 product-wap rounded-0" style="border: none;">
+            <div class="card rounded-0" style="border: none">
+              <img class="card-img rounded-0 img-fluid" [src]="item.image" alt="...">
+              <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                <ul class="list-unstyled">
+                  <li *ngIf="['ROLE_ADMIN'].indexOf(role)!==-1"><a [routerLink]="['/edit', item.id]">
+                    <button mat-raised-button color="primary" matTooltip="Chỉnh Sửa Thông Tin">
+                      <i class="fas	fa-pencil-alt"></i>
+                    </button>
+                  </a></li>
+                  <li class="mt-2"><a
+                    [routerLink]="['/detail', item.id]">
+                    <button mat-raised-button color="primary" matTooltip="Xem Chi Tiết">
+                      <i class="far fa-eye"></i>
+                    </button>
+                  </a></li>
+                  <li class="mt-2"><a>
+                    <button type="button" mat-raised-button color="primary" (click)="onAddToCart(item)"
+                            matTooltip="Thêm Vào Giỏ Hàng">
+                      <i class="fas fa-cart-plus"></i>
+                    </button>
+                  </a></li>
+                  <li class="mt-2" *ngIf="['ROLE_ADMIN'].indexOf(role)!==-1">
+                    <button color="warn" mat-raised-button
+                            (click)="delete(item.id, item.name, item.author)" matTooltip="Xoá Sách">
+                      <i class="fas fa-trash-alt"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-body d-grid align-content-between">
+              <a [routerLink]="['/detail', item.id]" class="h3 mb-0 text-decoration-none w-100 text"
+                 matTooltip="{{item.name}}">{{item.name}}</a>
+              <h2 class="h3 text-center text-danger fw-bold">{{item.price | number}} ₫</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="height: 50px; position: relative" class="container mb-3">
+          <ul class="pagination justify-content-end" style="text-align: right">
+            <li class="page-item me-2">
+              <select class="form-select" (change)="totalElement($event)">
+                <option value="8">8</option>
+                <option value="16">16</option>
+                <option value="24">24</option>
+                <option value="full">Tất Cả</option>
+              </select>
+            </li>
+            <li class="page-item">
+              <button class="align-middle" color="primary" mat-raised-button (click)="previousPage($event)"
+                      [ngStyle]="{'display':previousPageStyle}" type="button">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <span class="align-middle" style="margin: 0 20px 0 20px">{{pageSize * indexPagination + 1}}
+                - {{pageSize * indexPagination + numberOfElement}} trên {{totalElements}}</span>
+              <button class="align-middle" color="primary" mat-raised-button (click)="nextPage($event)"
+                      [ngStyle]="{'display':nextPageStyle}" type="button">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="mt-3">
+      <h1 class="h1 text-center animate__animated animate__slideInDown">Sách Bán Chạy Nhất</h1>
+    </div>
+
+    <div class="row ms-5">
+      <div class="col-1 align-self-center">
+        <a href="#multi-item-example" role="button" data-bs-slide="prev">
+          <i class="text-dark fas fa-chevron-left"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+      </div>
+
+      <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item my-5" data-bs-ride="carousel">
+        <div class="carousel-inner product-links-wap" role="listbox">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-3" *ngFor="let item of bookSellers | slice: 0: 4">
+                <a [routerLink]="['/detail', item.id]">
+                  <img class="card-img img-fluid" [src]="item.image" alt="Product Image 1" matTooltip="{{item.name}}">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-3" *ngFor="let item of bookSellers | slice: 4: 8">
+                <a [routerLink]="['/detail', item.id]">
+                  <img class="card-img img-fluid" [src]="item.image" alt="Product Image 1" matTooltip="{{item.name}}">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-3" *ngFor="let item of bookSellers | slice: 8: 12">
+                <a [routerLink]="['/detail', item.id]">
+                  <img class="card-img img-fluid" [src]="item.image" alt="Product Image 1" matTooltip="{{item.name}}">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1 align-self-center">
+        <a href="#multi-item-example" role="button" data-bs-slide="next">
+          <i class="text-dark fas fa-chevron-right"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
